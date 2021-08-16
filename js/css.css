@@ -1,0 +1,24 @@
+p{
+	font-size:60px;
+	width:92%;
+	text-align:center;
+}
+.clase{
+	width:100%;
+	background:url("../recursos/one.jpg");
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.name{
+
+}
+body{
+	background:url("../recursos/one.jpg");
+	background-size:110%;
+	background-repeat:no-repeat;
+}

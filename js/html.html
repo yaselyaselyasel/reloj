@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<title>pratica2</title>
+	<meta charset="utf-8">
+	<title>Menu</title>
+</head>
+<body>
+	<div class="españa">	
+		<ul>
+			<li id="item"><a href="#">inicio</a></li>
+			<li id="item"><a href="#">opciones</a>
+				<ul id="max">
+					<li><a href="##">nosotros</a></li>
+
+
+
+				</ul>
+			</li>
+			<li id="item"><a href="#">contacto</a></li>
+
+
+
+
+
+
+		</ul>
+	</div>
+<style type="text/css">
+.españa ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#item{
+	float:left;
+}
+.españa #item a{
+	background:blue;
+	color:white;
+	padding:12px 22px;
+	display:block;
+	font-size:16px;
+	text-decoration:none; 
+}
+
+.españa #max{
+	display:none;
+}
+
+
+.españa #item:hover #max{
+ 	display:block;
+ }
+
+ul:hover{
+	background:black;
+}
+
+</style>
+</body>
+</html>
